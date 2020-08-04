@@ -1,5 +1,6 @@
 help:
 	cat Makefile
+	@echo
 
 # start (or restart) the services
 server: .FORCE
