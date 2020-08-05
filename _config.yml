@@ -68,7 +68,8 @@ include:
 
 # Everything below here should be left alone. Modifications may break fastpages
 future: true
-theme: minima
+theme: bulma-clean-theme
+# theme: minima
 plugins:
   - jekyll-feed
   - jekyll-gist
@@ -85,7 +86,8 @@ plugins:
 paginate: 20
 paginate_path: /page:num/
 
-remote_theme: jekyll/minima
+#remote_theme: jekyll/minima
+remote_theme: jekyll/theme: bulma-clean-theme
 
 titles_from_headings:
   enabled:     true
